@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java JDK VM 1.7.0_u45 Windows">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts2Lib"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.68/lib/websocket-api.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

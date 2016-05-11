@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="com.Action"  extends="struts-default">
+        <action name="AddStudentAction" class="com.Action.AddStudentAction">
+           <result name="success">success.jsp</result>
+           <result name="error">addStudent.jsp</result>
+        </action>
+        <action name="IndexAction" class="com.Action.IndexAction">
+           <result name="success">index.jsp</result>
+           <result name="login">keypass.jsp</result>
+        </action>
+        <action name="KeyPassAction" class="com.Action.KeyPassAction">
+           <result name="success">editStudent.jsp</result>
+           <result name="error">error.jsp</result>
+           <result name="login">pwd.jsp</result>
+        </action>
+         <action name="KeyPass2Action" class="com.Action.KeyPass2Action">
+           <result name="success" type="redirectAction">IndexAction</result>
+           <result name="error">error.jsp</result>
+           <result name="login">pwd2.jsp</result>
+        </action>
+         <action name="UpdateAction" class="com.Action.UpdateAction">
+           <result name="success">success.jsp</result>
+           <result name="error">error.jsp</result>
+           <result name="login">pwd.jsp</result>
+        </action>
+        <action name="SerchAcation" class="com.Action.SerchAcation">
+           <result name="success">serch.jsp</result>
+           <result name="error">index.jsp</result>
+        </action>
+        <action name="DownloadWar" class="com.Utility.DownloadWar">
+           <result name="success">index.jsp</result>
+           <result name="error">error.jsp</result>
+        </action>
+    </package>  
+
+</struts>

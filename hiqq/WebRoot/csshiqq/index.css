@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+#content{
+	margin: auto;
+	width: 1030px;
+	height: auto;
+}
+table tr td{
+	width: 200px;
+}
+.boxTop{
+ 	 border-top:thick double black;
+}
+.boxbutton{
+ 	 border-bottom:thick double black;
+}
+.boxleft{
+ 	 border-left:thick double black;
+}
+.boxrigth{
+ 	 border-right:thick double black;
+}

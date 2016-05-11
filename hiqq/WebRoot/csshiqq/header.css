@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+#header{
+	margin:auto;
+	width: 1030px;
+	height: 150px;
+}
+#hd1{
+	text-align: center;
+}
+#out{
+	width:10%;
+	text-align: right;
+	float: left;
+}
+#add{
+	width:90%;
+	text-align: left;
+	float: left;
+}
